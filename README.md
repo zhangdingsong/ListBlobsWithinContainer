@@ -44,6 +44,17 @@ private static List<Uri> ListBlobsFromContainer(CloudBlobContainer container, st
 
 if (lstBlobUri.Count > threshold)
 {
-break;
+  break;
+}
+```
+lll
+```c#
+var rsltList = ListBlobsFromContainer(container, prefix, 5000);
+
+private static List<Uri> ListBlobsFromContainer(CloudBlobContainer container, string prefix, int threshold)
+
+if (lstBlobUri.Count > threshold)
+{
+  break;
 }
 ```
