@@ -1,10 +1,11 @@
-
 ---
 services: Cloud-Services
 platforms: .Net
 author: msonecode
 ---
+
 # List the blobs in a container with the specified prefix
+
 <br/>
 ##Introduction
 <br/>
@@ -32,6 +33,6 @@ The tutorial is written for Visual Studio 2015 with the [Azure SDK for .NET 2.9]
 ## Run the sample
 Before you build the solution, please do some modification as below:
 1.	Enter your storage account name, account key and container name as below lines.<br/>
-<img src="https://github.com/zhangdingsong/ListBlobsWithinContainer/blob/master/1.jpg"><br/>
+<img src="https://github.com/zhangdingsong/ListBlobsWithinContainer/blob/master/1.png"><br/>
 2.	Please specified your prefix if needed to meet your demands, and enable line 46 when you needed to remove those blobs.<br/>
 <img src="https://github.com/zhangdingsong/ListBlobsWithinContainer/blob/master/2.jpg"><br/>
