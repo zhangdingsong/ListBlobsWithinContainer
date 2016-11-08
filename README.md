@@ -6,7 +6,6 @@ author: msonecode
 
 # List the blobs in a container with the specified prefix
 
-<br/>
 ##Introduction
 <br/>
 This is an example of how to list the blobs in a container whose names begin with the specified prefix.
@@ -31,7 +30,7 @@ The tutorial is written for Visual Studio 2015 with the [Azure SDK for .NET 2.9]
 [Download the latest Azure SDK for Visual Studio 2015](http://go.microsoft.com/fwlink/?linkid=518003). The SDK installs Visual Studio 2015 if you don't already have it.
 
 ## Run the sample
-Before you build the solution, please do some modification as below:
+Before you build the solution, please do some modification as below:<br/>
 1.	Enter your storage account name, account key and container name as below lines.<br/>
 <img src="https://github.com/zhangdingsong/ListBlobsWithinContainer/blob/master/1.png"><br/>
 2.	Please specified your prefix if needed to meet your demands, and enable line 46 when you needed to remove those blobs.<br/>
