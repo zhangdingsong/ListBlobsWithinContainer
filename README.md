@@ -37,17 +37,8 @@ Please note delete operation  cannot undo. So make sure you have confirmed the c
 2.	Please specified your prefix if needed to meet your demands, and enable line 46 when you needed to remove those blobs.<br/>
 <img src="https://github.com/zhangdingsong/ListBlobsWithinContainer/blob/master/2.png"><br/>
 3.  Add a threshold parameter for method ListBlobsFromContainer().
-```csharp
-var rsltList = ListBlobsFromContainer(container, prefix, 5000);
+    (please check source code for details)
 
-private static List<Uri> ListBlobsFromContainer(CloudBlobContainer container, string prefix, int threshold)
-
-if (lstBlobUri.Count > threshold)
-{
-  break;
-}
-```
-lll
 ```c#
 var rsltList = ListBlobsFromContainer(container, prefix, 5000);
 
